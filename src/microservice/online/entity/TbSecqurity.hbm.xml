@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2017-4-19 16:46:12 by Hibernate Tools 3.2.2.GA -->
+<hibernate-mapping>
+    <class name="microservice.online.entity.TbSecqurity" table="tb_secqurity" catalog="wx_manage">
+        <id name="id" type="int">
+            <column name="id" />
+            <generator class="assigned" />
+        </id>
+        <property name="action" type="string">
+            <column name="action" length="50" />
+        </property>
+        <property name="des" type="string">
+            <column name="des" length="50">
+                <comment>&#195;&#232;&#202;&#246;</comment>
+            </column>
+        </property>
+        <property name="menuName" type="string">
+            <column name="menu_name" length="50">
+                <comment>&#178;&#203;&#181;&#165;&#195;&#251;&#179;&#198;</comment>
+            </column>
+        </property>
+        <property name="pid" type="java.lang.Integer">
+            <column name="pid" />
+        </property>
+        <property name="ismenu" type="string">
+            <column name="ismenu" length="1">
+                <comment>&#202;&#199;&#183;&#241;&#202;&#199;&#178;&#203;&#181;&#165;</comment>
+            </column>
+        </property>
+        <property name="icon" type="string">
+            <column name="icon" length="50">
+                <comment>&#205;&#188;&#177;&#234;</comment>
+            </column>
+        </property>
+    </class>
+</hibernate-mapping>

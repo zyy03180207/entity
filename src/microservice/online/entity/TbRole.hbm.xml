@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2017-4-19 16:46:12 by Hibernate Tools 3.2.2.GA -->
+<hibernate-mapping>
+    <class name="microservice.online.entity.TbRole" table="tb_role" catalog="wx_manage">
+        <id name="id" type="int">
+            <column name="id" />
+            <generator class="assigned" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" length="50">
+                <comment>&#189;&#199;&#201;&#171;&#195;&#251;&#179;&#198;</comment>
+            </column>
+        </property>
+        <property name="introduce" type="string">
+            <column name="introduce" length="100">
+                <comment>&#189;&#199;&#201;&#171;&#189;&#233;&#201;&#220;</comment>
+            </column>
+        </property>
+        <property name="state" type="string">
+            <column name="state" length="5">
+                <comment>&#189;&#199;&#201;&#171;&#215;&#180;&#204;&#172;</comment>
+            </column>
+        </property>
+    </class>
+</hibernate-mapping>

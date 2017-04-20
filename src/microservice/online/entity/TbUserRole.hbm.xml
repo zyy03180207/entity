@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2017-4-19 16:46:12 by Hibernate Tools 3.2.2.GA -->
+<hibernate-mapping>
+    <class name="microservice.online.entity.TbUserRole" table="tb_user_role" catalog="wx_manage">
+        <composite-id name="id" class="microservice.online.entity.TbUserRoleId">
+            <key-property name="uid" type="int">
+                <column name="uid" />
+            </key-property>
+            <key-property name="rid" type="int">
+                <column name="rid" />
+            </key-property>
+        </composite-id>
+    </class>
+</hibernate-mapping>
