@@ -16,6 +16,7 @@ import javax.persistence.TemporalType;
 @Table(name = "tb_user", catalog = "wx_manage")
 public class TbUser implements java.io.Serializable {
 
+	private static final long serialVersionUID = -5479991162746884876L;
 	private int cid;
 	private String username;
 	private String password;

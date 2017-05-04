@@ -13,6 +13,7 @@ import javax.persistence.Table;
 @Table(name = "tb_secqurity", catalog = "wx_manage")
 public class TbSecqurity implements java.io.Serializable {
 
+	private static final long serialVersionUID = -6785841472753010847L;
 	private int id;
 	private String action;
 	private String des;

@@ -15,6 +15,7 @@ import javax.persistence.Table;
 @Table(name = "tb_role_secqurity", catalog = "wx_manage")
 public class TbRoleSecqurity implements java.io.Serializable {
 
+	private static final long serialVersionUID = 8444823605758652461L;
 	private TbRoleSecqurityId id;
 
 	public TbRoleSecqurity() {

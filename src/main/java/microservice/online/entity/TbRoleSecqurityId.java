@@ -10,6 +10,7 @@ import javax.persistence.Embeddable;
 @Embeddable
 public class TbRoleSecqurityId implements java.io.Serializable {
 
+	private static final long serialVersionUID = -3819221153767006956L;
 	private int rid;
 	private int sid;
 

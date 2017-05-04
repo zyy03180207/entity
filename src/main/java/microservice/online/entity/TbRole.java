@@ -13,7 +13,8 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "tb_role", catalog = "wx_manage")
 public class TbRole implements java.io.Serializable {
-
+	
+	private static final long serialVersionUID = -4957834597331471430L;
 	private int id;
 	private String name;
 	private String introduce;

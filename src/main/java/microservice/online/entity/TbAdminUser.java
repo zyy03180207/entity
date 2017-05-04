@@ -13,6 +13,7 @@ import javax.persistence.Table;
 @Table(name = "tb_admin_user", catalog = "wx_manage")
 public class TbAdminUser implements java.io.Serializable {
 
+	private static final long serialVersionUID = 8998595495421484663L;
 	private int id;
 	private String username;
 	private String password;
