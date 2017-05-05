@@ -60,7 +60,7 @@ public class TbAdminUser implements java.io.Serializable {
 		this.username = username;
 	}
 
-	@Column(name = "password", length = 20)
+	@Column(name = "password", length = 50)
 	public String getPassword() {
 		return this.password;
 	}
